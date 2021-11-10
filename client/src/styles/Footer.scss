@@ -1,3 +1,4 @@
+@import '../variables.scss';
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
 
 
@@ -41,7 +42,7 @@ PLACE THE CARDS AND CENTER THE ICONS
   height: 35px;
   border-radius: 30%;
 
-  color: #3498db;
+  color: $themeColor; //#3498db;
   background: #fff;
   overflow: hidden;
   position: relative;

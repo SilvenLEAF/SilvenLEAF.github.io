@@ -36,11 +36,11 @@
 
 
 
-
+$contactIconBorderWidth: 15px;
   .myContactSectionIcon {
     background: $themeColor;
-    width: 80px;
-    height: 80px;
+    width: 80px + $contactIconBorderWidth;
+    height: 80px + $contactIconBorderWidth;
     border-radius: 50%;
     position: absolute;
     top: -40px;
@@ -56,7 +56,11 @@
     text-align: center;
     color: #fff;
     font-size: 250%;
+
+    // border: 7px
   
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.3);
+    border: $contactIconBorderWidth solid $bodyBG;
     
 
   }
