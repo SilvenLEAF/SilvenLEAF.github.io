@@ -180,12 +180,25 @@ nav ul.sidenav li:hover  a {
 
 ul.sidenav {
   background-color: $bodyBG;  
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 
   
   li {
     background-color: $bodyBG;
     &:nth-child(1) {
       margin-top: 50px;
+    }
+
+    &:last-child {
+      margin-top: auto;
+      margin-left: 0;
+      text-align: center;
+    }
+
+    span.copyrightLi, .far.fa-copyright {
+      font-size: 70%;
     }
   }
 }

@@ -31,6 +31,7 @@ function Navbar() {
           <li className="hide-on-small-only"><a href="#myContact" className="sidenav-close" ><i className="fa fa-envelope"></i>Contact Me</a></li>
           <li className="hide-on-med-and-up" ><a href="#myMobileContact" className="sidenav-close" ><i className="fa fa-envelope"></i>Contact Me</a></li>
           <li><a href="#myAbout" className="sidenav-close" ><i className="fa fa-info-circle"></i>About Me</a></li>
+          <li><a href="#" className="sidenav-close" ><span className="copyrightLi">&copy; SilvenLEAF All rights reserved { new Date().getFullYear() }</span></a></li>
         </ul>
 
 
