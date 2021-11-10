@@ -8,8 +8,6 @@ import React, { useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react/swiper-react.js';
 
 import SwiperCore, { EffectCoverflow, Controller, Navigation, Pagination, Scrollbar, Autoplay }  from 'swiper';
-import 'swiper/swiper.scss'
-// import 'swiper/components/effect-coverflow/effect-coverflow.scss'
 
 // Styles must use direct files imports
 import 'swiper/swiper.scss'; // core Swiper

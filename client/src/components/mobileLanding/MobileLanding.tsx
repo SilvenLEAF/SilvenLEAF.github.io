@@ -21,7 +21,7 @@ function MobileLanding() {
       <div id="myLandingCarousalHolder" className="container" >
         <div id="myMobileLandingButtonHolder" className="container" >
           <a href="#myProjects" id="myMobileLandingButton">
-            <i className="fa fa-eye"></i> Click here to see all my Works
+            <i className="fas fa-biohazard"></i> Click here to see all my Works <i className="fas fa-biohazard"></i>
           </a>
         </div>
         <Carousal />

@@ -18,7 +18,7 @@ function Navbar() {
 
         <Link to= "/" className= "brand-logo">$ilvenLEAF</Link>
         <div className="sidenav-trigger hide-on-large-only" data-target= "mobilenav" id="myHam">
-            <i className="fas fa-hamburger"></i>
+            <i className="fas fa-biohazard"></i>
         </div>
 
 
@@ -26,7 +26,7 @@ function Navbar() {
 
         <ul className="sidenav" id="mobilenav">
           <li><a href="#mySkills" className="sidenav-close" ><i className="fa fa-cogs"></i>Skills</a></li>
-          <li><a href="#myProjects" className="sidenav-close" ><i className="fa fa-paint-brush"></i>Works</a></li>
+          <li><a href="#myProjects" className="sidenav-close" ><i className="fa fa-laptop-code"></i>Works</a></li>
           <li><a href="#experienceSection" className="sidenav-close" ><i className="fa fa-graduation-cap"></i>Experience</a></li>
           <li className="hide-on-small-only"><a href="#myContact" className="sidenav-close" ><i className="fa fa-envelope"></i>Contact Me</a></li>
           <li className="hide-on-med-and-up" ><a href="#myMobileContact" className="sidenav-close" ><i className="fa fa-envelope"></i>Contact Me</a></li>

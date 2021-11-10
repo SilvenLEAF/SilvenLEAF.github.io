@@ -70,11 +70,38 @@ a#myMobileLandingButton {
   margin: 0;
   font-size: 150%;
   color: $themeColor;
+  font-family: Dosis, sans-serif;
+
+  text-align: center;
+
+  padding: 5px 10px;
+  font-weight: bolder;
+  // background: $grayColor;
 }
 
+#myMobileLandingButtonHolder{
+  height: 60px;
+  width: auto;
+  border: 3px solid $themeColor;
+  margin: 0 10px;
 
+  margin-bottom: 30px;
+
+  
+  text-align: center;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 30px;
+
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+}
 
 #myLandingCarousalHolder {
+
+  // border: 5px solid #500;
   margin: 20px auto;
   width: 100%;
   margin-bottom: 0;

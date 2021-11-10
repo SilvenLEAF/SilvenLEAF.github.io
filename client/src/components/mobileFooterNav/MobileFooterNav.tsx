@@ -31,7 +31,7 @@ function MobileFooterNav() {
       <div>
         <div className="myFooterIcons">
           <a href="#myProjects">
-          <i className="fa fa-paint-brush"></i> Works
+          <i className="fa fa-laptop-code"></i> Works
           </a>
         </div>          
       </div>
