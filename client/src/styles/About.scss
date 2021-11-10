@@ -1,0 +1,42 @@
+@import '../variables';
+
+
+
+
+#myAbout {
+  display: flex;  
+  justify-content: center;
+  margin-bottom: 70px;
+
+  .myAboutInfoHolder .myAboutQA div {
+    display: inline-block;
+    @include mQ(800px){    
+      display: block;
+    }
+  }
+
+
+
+  .myAboutTitle {
+    width: 100px;
+    text-align: right;
+
+    font-weight: 800;
+    font-family: Dosis;
+    font-size: 150%;
+    color: $themeColor;
+    
+    
+    @include mQ(800px){    
+      text-align: left;
+    }
+  }
+
+  .myAboutAnswer {
+    margin: 0px 0px 10px 10px;
+
+    @include mQ(800px){    
+      margin: 0;
+    }
+  }
+}

@@ -1,11 +1,44 @@
+import 'materialize-css/dist/css/materialize.min.css'
+
+
+
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+
+import Navbar from './components/layouts/Navbar'
+import Footer from './components/layouts/Footer'
+import MobileFooterNav from './components/mobileFooterNav/MobileFooterNav'
+
+
+
+import Home from './components/home/Home'
+
 
 function App() {
   return (
     <BrowserRouter basename="/NEXT">
       <div className="App">
-        <h1 style={{ textAlign: "center", marginTop: "50px", color: "#d00" }}>SilvenLEAF</h1>
+        <Navbar />
+        <div id="myWrapper">
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+          {
+            /* -------------------------------
+              In React Router Dom V6
+              path="/" means exact path="/"
+              path="/*" means path="/"
+            ------------------------------- */
+          }
+        </div>
+
+        <div id="myFooter">
+          <Footer />
+        </div>
+
+        <MobileFooterNav />
+
       </div>
     </BrowserRouter>
   );

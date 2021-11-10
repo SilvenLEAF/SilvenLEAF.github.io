@@ -1,0 +1,32 @@
+@import '../variables';
+
+ 
+
+
+
+#myMobileContact .collection {
+  margin:0;
+  position: relative;
+  top: -30px;
+
+  .collection-item {
+    margin: 0;
+
+    a {
+      color: $themeColor;
+    }
+
+    i.myMainIcon {
+      background-color: $themeColor;
+      font-size: 150%;
+    }
+
+    i.mySecondaryIcon {
+      color: $themeColor;
+    }
+
+
+  }
+
+
+}

@@ -1,0 +1,63 @@
+@import '../variables';
+
+
+
+
+.myHomeSectionTitleHolder{
+  position: relative;
+  
+  .myHomeSectionTitle {
+    font-family: Dosis;
+    font-size: 700%;
+    font-weight: 800;
+    color: $themeColor;
+    text-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+
+
+    @include mQ(800px){
+      font-size: 400%;
+      font-weight: 800;
+    }
+      
+  }
+
+
+
+
+}
+
+
+
+
+
+
+#myBackToTopButton {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: $themeColor;
+
+  display: none;
+  // display: flex;  it will become flex on scroll
+  justify-content: center;
+  align-items: center;
+
+  border: 7px solid $bodyBG;
+  color: #fff;
+  font-size: 200%;
+
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+
+
+  @include mQ(800px){
+    width: 60px;
+    height: 60px;
+
+    font-size: 190%;
+
+    bottom: 70px;
+    right: 20px;
+  }
+}
