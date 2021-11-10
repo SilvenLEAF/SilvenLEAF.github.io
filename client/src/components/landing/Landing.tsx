@@ -5,11 +5,11 @@ import React from 'react'
 import { url } from 'inspector'
 
 function Landing() {
- 
+
 
 
   return (
-    <div id="myLanding" className="scrollspy hide-on-med-and-down" >        
+    <div id="myLanding" className="scrollspy hide-on-med-and-down" >
 
       <div id="myLandingTitleHolder">
         <h5>I turn your</h5>
@@ -26,10 +26,10 @@ function Landing() {
         </div>
 
 
-        
+
       </div>
 
-      <div id="myLandingIcon" style={{background: "url('/NEXT/SilvenLEAF.jpg') center/cover" }}></div>
+      <div id="myLandingIcon" style={{ background: "url('/logos/SilvenLEAF.jpg') center/cover" }}></div>
     </div>
   )
 }

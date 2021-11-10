@@ -10,7 +10,7 @@ function MobileLanding() {
     <div id="myMobileLanding" className="hide-on-large-only" >
 
       <div id="myMobileLandingTitleHolder">
-        <div id="myMobileLandingIcon" style={{background: "url('/NEXT/SilvenLEAF.jpg') center/cover"}} ></div>
+        <div id="myMobileLandingIcon" style={{ background: "url('/logos/SilvenLEAF.jpg') center/cover" }} ></div>
 
         <h5>I turn your</h5>
         <h1>DREAMS into REALITY</h1>
