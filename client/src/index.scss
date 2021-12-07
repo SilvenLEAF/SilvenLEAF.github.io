@@ -26,8 +26,6 @@
 ------------------------------------ */
 
 
-
-
 html {
   scroll-behavior: smooth;
 }
@@ -184,11 +182,32 @@ ul.sidenav {
   flex-direction: column;
   height: 100%;
 
+  &::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(100,0,0,0.05);
+    position: absolute;
+    z-index: -1;
+    clip-path: circle(50% at 100% 0%);
+  }
+  &::after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(100,0,0,0.05);
+    position: absolute;
+    z-index: -1;
+    clip-path: circle(50% at 0% 100%);
+  }
   
   li {
-    background-color: $bodyBG;
+    // background-color: $bodyBG;
     &:nth-child(1) {
-      margin-top: 50px;
+      // margin-top: 50px;
+      margin-top: 200px;
     }
 
     &:last-child {
