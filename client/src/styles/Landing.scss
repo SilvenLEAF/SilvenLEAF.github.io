@@ -19,14 +19,20 @@
     // background: url("/logos/SilvenLEAF.png") center/cover;
     position: relative;
     border: 17px solid $bodyBG;
+    cursor: pointer;
+    
 
     &::before {
+      // content: "";
+      content: "";
+      color: "#fff";
+      text-align: center;
+
       position: absolute;
       transform: scale(1.07) translate3d(45px, -45px, 0px);
       background-color: rgba($color: $themeColor, $alpha: 1);
 
       z-index: -1;
-      content: "";
       width: 100%;
       height: 100%;
       border-radius: 19%;
@@ -36,8 +42,7 @@
   
   #myLandingTitleHolder {
     width: 550px;
-    
- 
+    cursor: pointer;
 
   
     h5{

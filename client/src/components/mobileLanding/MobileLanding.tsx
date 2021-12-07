@@ -2,15 +2,16 @@ import '../../styles/MobileLanding.scss';
 
 
 
-import React from 'react'
+import React, { useState } from 'react'
 import Carousal from './Slider';
 
 function MobileLanding() {
+  const [isFace, setIsFace] = useState(false);
   return (
     <div id="myMobileLanding" className="hide-on-large-only" >
 
-      <div id="myMobileLandingTitleHolder">
-        <div id="myMobileLandingIcon" style={{ background: "url('/logos/SilvenLEAF.jpg') center/cover" }} ></div>
+      <div id="myMobileLandingTitleHolder" onClick={() => setIsFace(!isFace)}>
+        <div id="myMobileLandingIcon" style={{ background: isFace ? "url('/logos/SilvenLEAF Face.jpg') center/cover" : "url('/logos/SilvenLEAF.jpg') center/cover" }} ></div>
 
         <h5>I turn your</h5>
         <h1>DREAMS into REALITY</h1>

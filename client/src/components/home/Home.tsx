@@ -65,7 +65,7 @@ function Home() {
         <div className="myHomeSectionTitle">Xperience</div>
       </div>
 
-      <p className="myExperienceParagraph container" style={{ marginBottom: "50px" }} >
+      <p className="myExperienceParagraph container" style={{ marginBottom: "50px", userSelect: "text" }} >
         Created apis, handled server side and client side programming, implemented oauth2.0, applied MVC Design Pattern, implemented CRUD, handled security issues, improved UI/UX, created Servers, REST APIs, Web apps, PWA's, Websites, Applied clean code.
       </p>
       

@@ -173,7 +173,8 @@ nav ul.PCNav li  {
 }
 
 nav ul.sidenav li:hover  a {  
-  background-color: rgba($color: $themeColor, $alpha: 0.3);  
+  opacity: 0.5;
+  // background-color: rgba($color: $themeColor, $alpha: 0.03);  
 }
 
 ul.sidenav {

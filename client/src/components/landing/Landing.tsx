@@ -1,17 +1,17 @@
 
 import '../../styles/Landing.scss'
 
-import React from 'react'
+import React, { useState } from 'react'
 import { url } from 'inspector'
 
 function Landing() {
 
-
+  const [isFace, setIsFace] = useState(false);
 
   return (
     <div id="myLanding" className="scrollspy hide-on-med-and-down" >
 
-      <div id="myLandingTitleHolder">
+      <div id="myLandingTitleHolder" onClick={()=> setIsFace(!isFace)}>
         <h5>I turn your</h5>
         <h1>DREAMS into REALITY</h1>
         <h3>Fullstack Developer</h3>
@@ -29,7 +29,7 @@ function Landing() {
 
       </div>
 
-      <div id="myLandingIcon" style={{ background: "url('/logos/SilvenLEAF.jpg') center/cover" }}></div>
+      <div id="myLandingIcon" style={{ background: isFace ? "url('/logos/SilvenLEAF Face.jpg') center/cover" : "url('/logos/SilvenLEAF.jpg') center/cover" }} onClick={()=> setIsFace(!isFace)}></div>
     </div>
   )
 }
