@@ -28,7 +28,7 @@ function MobileContact() {
           mainIcon="fab fa-linkedin" 
           title="Linked In"
           link="https://www.linkedin.com/in/silvenleaf/"
-          linkText="www.linkedin.com/in/silvenleaf/"  
+          linkText="linkedin.com/in/SilvenLEAF"  
         />
 
 
@@ -57,7 +57,7 @@ function MobileContact() {
           mainIcon="fab fa-twitter" 
           title="Twitter"
           link="https://twitter.com/SilvenLEAF?s=20"
-          linkText="twitter.com/SilvenLEAF?s=20"  
+          linkText="twitter.com/SilvenLEAF"  
         />
 
 
