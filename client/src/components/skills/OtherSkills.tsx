@@ -4,7 +4,7 @@ function OtherSkills() {
   return (
     <div className="mySkillSectionHolder">
       <div className="mySkillSectionIcon">
-        <img src="/images/fire.svg" alt="" />
+        <img src="/images/others.svg" alt="" />
       </div>
 
       <h4 className="mySkillSectionTitle">Others</h4>

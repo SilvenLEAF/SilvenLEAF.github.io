@@ -13,10 +13,10 @@ function Skills() {
     <div id="mySkills" className="scrollspy" >
     
       <div>
-        <FrontendSkills/>
+        <BackendSkills/>
       </div>
       <div>
-        <BackendSkills/>
+        <FrontendSkills/>
       </div>
       <div>
         <OtherSkills/>

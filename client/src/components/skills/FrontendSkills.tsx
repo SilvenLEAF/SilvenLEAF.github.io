@@ -27,16 +27,16 @@ function FrontendSkills() {
           Redux
         </li>
         <li>
-          <img src="/images/skills/html5.svg" alt="" />
-          HTML5
-        </li>
-        <li>
-          <img src="/images/skills/css3.svg" alt="" />
-          CSS3
+          <img src="/images/skills/react.svg" alt="" />
+          React Native
         </li>
         <li>
           <img src="/images/skills/sass.svg" alt="" />
           SASS
+        </li>
+        <li>
+          <img src="/images/skills/uikitten.png" alt="" />
+          UI Kitten
         </li>
         {/* <li>
           <img src="/images/skills/framermotion.png" alt=""/>
