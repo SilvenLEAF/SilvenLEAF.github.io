@@ -10,6 +10,10 @@ function OtherSkills() {
       <h4 className="mySkillSectionTitle">Others</h4>
       <ul className="mySkillSectionSkills">
         <li>
+          <img src="/images/skills/azure.svg" alt="Azure" />
+          Azure
+        </li>
+        <li>
           <img src="/images/skills/botframeworksdk.png" alt="" />
           Botframework SDK
         </li>
@@ -48,10 +52,6 @@ function OtherSkills() {
         <li>
           <img src="/images/skills/vscode.svg" alt="VS Code" />
           VS Code
-        </li>
-        <li>
-          <img src="/images/skills/heroku.svg" alt="Heroku" />
-          Heroku
         </li>
 
 
