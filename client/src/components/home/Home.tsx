@@ -18,45 +18,45 @@ import MobileContact from '../contact/MobileContact';
 
 
 function Home() {
-  useEffect(()=>{
+  useEffect(() => {
     M.AutoInit();
   }, [])
 
-  
 
-  useEffect(()=>{
-    window.addEventListener('scroll', ()=>{
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
       const myBackToTopButton = document.getElementById('myBackToTopButton') as HTMLAnchorElement;
-  
-      if(window.pageYOffset > 300) {
+
+      if (window.pageYOffset > 300) {
         myBackToTopButton!.style.display = "flex";
       } else {
         myBackToTopButton!.style.display = "none";
       }
-  
+
     })
   })
 
   return (
     <>
       <Landing />
-      <MobileLanding/>
-      
-      
-      <div className="container myHomeSectionTitleHolder">        
+      <MobileLanding />
+
+
+      <div className="container myHomeSectionTitleHolder">
         <div className="myHomeSectionTitle">$kills</div>
       </div>
-      <Skills/>
+      <Skills />
 
 
 
 
 
 
-      <div className="container myHomeSectionTitleHolder">        
+      <div className="container myHomeSectionTitleHolder">
         <div className="myHomeSectionTitle">爪y Works</div>
       </div>
-      <Projects/>
+      <Projects />
 
 
 
@@ -66,25 +66,96 @@ function Home() {
       </div>
 
       <p className="myExperienceParagraph container" style={{ marginBottom: "50px", userSelect: "text" }} >
-        Created apis, handled server side and client side programming, implemented oauth2.0, applied MVC Design Pattern, implemented CRUD, handled security issues, improved UI/UX, created Servers, REST APIs, Web apps, PWA's, Websites, Applied clean code.
+        <p className="expSectionTitle myThemeColorText" style={{ marginBottom: "0px" }}>
+          Software Engineer, Empauwer (Feb 2021 - present)
+        </p>
+        <p style={{ marginTop: "0px" }}>
+
+          <li>
+            Developed two Virtual Mentors (Eus and Eme) with Ms Botframework SDK. One for employers and one for people with autism.
+          </li>
+          <li>
+           Implemented FTS Search Algorithm
+          </li>
+          <li>
+           Implemented Boolean Search Algorithm
+          </li>
+          <li>
+           Worked on Nylas Email Integration
+          </li>
+          <li>
+           Helped with data migration
+          </li>
+          <li>
+           Developed REST-ful API(s)
+          </li>
+          <li>
+           Handled CRUD, Database, and Serverside stuff
+          </li>
+          <li>
+           Scripting
+          </li>
+          <li>
+           Automations etc
+          </li>
+        </p>
+
+        <p className="expSectionTitle myThemeColorText" style={{ marginBottom: "0px" }}>
+          Backend Engineer, SilvenLEAF (Apr 2020 - present)
+        </p>
+        <p style={{ marginTop: "0px" }}>
+          <li>
+            Created API(s)
+          </li>
+          <li>
+            Implemented Oauth 2.0
+          </li>
+          <li>
+            Applied MVC Design Pattern
+          </li>
+          <li>
+            Created Chatbots with Ms Botframework SDK
+          </li>
+          <li>
+            Worked on Nylas Email integration
+          </li> 
+          <li>
+            Implemented FTS Search Algorithm
+          </li>
+          <li>
+            Implemented Boolean Search Algorithm
+          </li>
+          <li>
+            Created Web Apps and PWA(s)
+          </li>
+          <li>
+            Cross platform React Native Apps (with expo)
+          </li>
+          <li>
+            Automate manual tasks
+          </li>
+          <li>
+            Applied Clean Code etc
+          </li>
+        </p>
       </p>
-      
-      
-      
-      <div className="container myHomeSectionTitleHolder myContactMeTitleHolder">        
+
+
+
+      <div className="container myHomeSectionTitleHolder myContactMeTitleHolder">
         <div className="myHomeSectionTitle">Kontact Me</div>
       </div>
-      <Contact/>
-      <MobileContact/>
+      <Contact />
+      <MobileContact />
 
 
 
 
 
-      <div className="container myHomeSectionTitleHolder">        
+      <div className="container myHomeSectionTitleHolder">
         <div className="myHomeSectionTitle">@bout Me</div>
       </div>
-      <About/>
+      <About />
 
 
       <a href="#myNavbar" id="myBackToTopButton">
