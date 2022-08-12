@@ -67,7 +67,7 @@ function Home() {
 
       <p className="myExperienceParagraph container" style={{ marginBottom: "50px", userSelect: "text" }} >
         <p className="expSectionTitle myThemeColorText" style={{ marginBottom: "0px" }}>
-          Software Engineer, Empauwer (Feb 2021 - present)
+          Software Engineer, X0PA AI (Feb 2021 - present)
         </p>
         <p style={{ marginTop: "0px" }}>
 
