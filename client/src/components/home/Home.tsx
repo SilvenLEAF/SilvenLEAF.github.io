@@ -1,6 +1,5 @@
 import M from 'materialize-css'
 import '../../styles/Home.scss';
-import moment from 'moment';
 
 import React, { useEffect } from 'react'
 
