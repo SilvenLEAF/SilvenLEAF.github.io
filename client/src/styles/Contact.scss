@@ -11,32 +11,34 @@
 #myContact .row {
   margin: 70px;
 
-  @include mQ(800px){    
+  @include mQ(800px) {
     margin-top: 0px;
     margin-bottom: 0px;
   }
-  
+
 }
 
 #myContact .myContactSection {
-  
+
   height: 200px;
+  border-radius: 20px;
   background-color: #fff;
-  box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   position: relative;
 
   text-align: center;
 
 
 
-  @include mQ(800px){    
+  @include mQ(800px) {
     margin-bottom: 70px;
   }
 
 
 
 
-$contactIconBorderWidth: 15px;
+  $contactIconBorderWidth: 15px;
+
   .myContactSectionIcon {
     background: $themeColor;
     width: 80px + $contactIconBorderWidth;
@@ -47,8 +49,8 @@ $contactIconBorderWidth: 15px;
     left: 50%;
     margin-left: -40px;
 
-    
-    
+
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,9 +59,9 @@ $contactIconBorderWidth: 15px;
     color: #fff;
     font-size: 250%;
 
-    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.3);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
     border: $contactIconBorderWidth solid $bodyBG;
-    
+
 
   }
 
@@ -70,21 +72,21 @@ $contactIconBorderWidth: 15px;
     color: $themeColor;
   }
 
-  
+
   .myContactButtonHolder {
     margin-top: 40px;
 
     .myContactButton {
       padding: 5px 20px;
       border-radius: 30px;
-      
+
       color: #fff;
       font-size: 1.2em;
       border: none;
       cursor: pointer;
-      box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
-         
-    
+      box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+
+
       background-color: $themeColor;
     }
   }

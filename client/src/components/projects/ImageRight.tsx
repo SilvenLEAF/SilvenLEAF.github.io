@@ -3,7 +3,7 @@ import { IProjectDataItem } from '../../interfaces/ProjectDataInterface'
 
 function ImageRight({ title, links, images, technology, description }: IProjectDataItem) {
   return (
-    <div id="myImageRightProjectHolder" className="container container myProjectHolder">
+    <div className="container container myProjectHolder myImageRightProjectHolder">
 
       <div>
         <div className="myProjectImageHolder">
@@ -17,10 +17,10 @@ function ImageRight({ title, links, images, technology, description }: IProjectD
         <h4 className="myProjectTitle">{title}</h4>
         <div className="myProjectButtons">
           <a target="_blank" href={links.live || links.sourceCode}>
-            <button className="mySeeLiveButton"><i className="fa fa-link fa-rotate-90"></i> See LIVE</button>
+            <button className="mySeeLiveButton disabled"><i className="fa fa-eye"></i> LIVE</button>
           </a>
           <a target="_blank" href={links.sourceCode}>
-            <button className="mySeeSourceCodeButton"><i className="fab fa-github"></i> Source Code</button>
+            <button className="mySeeSourceCodeButton"><i className="fab fa-github"></i> Source</button>
           </a>
         </div>
 

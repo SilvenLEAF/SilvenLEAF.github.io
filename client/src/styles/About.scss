@@ -17,11 +17,13 @@
   }
   
   .myAboutInfoHolder .myAboutQA {
+    border-left: 1px solid rgba($color: $themeColor, $alpha: 0.1);
+    border-bottom: 1px solid rgba($color: $themeColor, $alpha: 0.1);
     @include mQ(800px){    
       .myAboutAnswer {
         margin-bottom: 10px;
       }
-      // border-top: 1px solid rgba($color: $themeColor, $alpha: 0.1);
+      border-left: none;
       border-right: 1px solid rgba($color: $themeColor, $alpha: 0.1);
       border-bottom: 1px solid rgba($color: $themeColor, $alpha: 0.1);
     }
@@ -45,7 +47,10 @@
     color: $themeColor;
     
     
+    text-align: left;
+    margin-left: 20px;
     @include mQ(800px){    
+      margin-left: 0px;
       text-align: left;
     }
   }

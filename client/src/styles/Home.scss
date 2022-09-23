@@ -7,18 +7,27 @@
   position: relative;
   
   .myHomeSectionTitle {
+    margin-bottom: 0px;
     font-family: Dosis;
     font-size: 700%;
     font-weight: 800;
     color: $themeColor;
     text-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
-
-
+    
+    
     @include mQ(800px){
       font-size: 400%;
       font-weight: 800;
     }
-      
+  }
+  .myHomeSectionSubTitle {
+    font-size: 140%;
+    margin-left: 90px;
+    
+    @include mQ(800px){
+      font-size: 90%;
+      margin-left: 30px;
+    }
   }
 
 

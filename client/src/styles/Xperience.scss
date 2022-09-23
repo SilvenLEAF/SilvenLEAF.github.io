@@ -1,0 +1,55 @@
+@import '../variables';
+
+
+#experienceSection {
+  .myExperienceParagraph {
+    margin: 50px;
+    text-align: justify;
+
+    @include mQ(800px) {
+      margin: 0px;
+    }
+
+    .companyNameHolder {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      flex-direction: row;
+
+      .companyTitle {
+        font-size: 150%;
+        font-family: Dosis;
+        font-weight: 500;
+      }
+
+      .companyXp {
+        margin: 20px;
+
+        @include mQ(800px) {
+          margin-bottom: 0px;
+        }
+      }
+
+      $iconBorderWidth: 7px;
+
+      .myXpSectionIcon {
+        margin-right: 10px;
+        background: $themeColor;
+        width: 40px + $iconBorderWidth;
+        height: 40px + $iconBorderWidth;
+        border-radius: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+        color: #fff;
+        font-size: 150%;
+
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
+        border: + $iconBorderWidth solid $bodyBG;
+      }
+    }
+  }
+}

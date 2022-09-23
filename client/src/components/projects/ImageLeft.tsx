@@ -5,7 +5,7 @@ import { IProjectDataItem } from '../../interfaces/ProjectDataInterface'
 
 function ImageLeft({ title, links, images, technology, description }: IProjectDataItem) {
   return (
-    <div id="myImageLeftProjectHolder" className="container myProjectHolder">
+    <div className="container myProjectHolder myImageLeftProjectHolder">
 
       <div>
         <div className="myProjectImageHolder">
@@ -18,11 +18,11 @@ function ImageLeft({ title, links, images, technology, description }: IProjectDa
       <div className="myProjectDescriptionHolder">
         <h4 className="myProjectTitle">{title}</h4>
         <div className="myProjectButtons">
-          <a target="_blank" href={links.live || links.sourceCode}>
-            <button className="mySeeLiveButton"><i className="fa fa-link fa-rotate-90"></i> See LIVE</button>
+          <a target="blank" href={ links.live || links.sourceCode}>
+            <button className="mySeeLiveButton"><i className="fa fa-eye"></i> LIVE</button>
           </a>
-          <a target="_blank" href={links.sourceCode}>
-            <button className="mySeeSourceCodeButton"><i className="fab fa-github"></i> Source Code</button>
+          <a target="blank" href={links.sourceCode}>
+            <button className="mySeeSourceCodeButton"><i className="fab fa-github"></i> Source</button>
           </a>
         </div>
 
