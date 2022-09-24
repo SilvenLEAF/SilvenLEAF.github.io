@@ -39,7 +39,7 @@ function Xperience() {
           </p>
 
           <p className="expSectionTitle myThemeColorText" style={{ marginBottom: "0px" }}>
-            Software Engineer, X0PA AI (Feb 2021 - Apr 2021)
+            Software Engineer, X0PA AI (Feb 2021 - Apr 2022)
           </p>
           <p style={{ marginTop: "0px" }}>
 
