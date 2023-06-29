@@ -17,7 +17,29 @@ function Xperience() {
 
         <div className="companyXp">
           <p className="expSectionTitle myThemeColorText" style={{ marginBottom: "0px" }}>
-            <i className={`circle myMainIcon`}></i> Software Engineer II, X0PA AI (Apr 2022 - present)
+            <i className={`circle myMainIcon`}></i> Senior Software Engineer, X0PA AI (Jan 2023 - present)
+          </p>
+          <p style={{ marginTop: "0px" }}>
+
+            <li>
+              Developed SFTP based two-way data flow integration in a cron based environment
+            </li>
+            <li>
+              Responsible for development and maintenance across multiple projects and codebases
+            </li>
+            <li>
+              Designing and developing efficient and secure backend systems
+            </li>
+            <li>
+              Responsible for data migration and data processing for clients
+            </li>
+            <li>
+              Responsible for deployment in Production and Staging environment
+            </li>
+          </p>
+
+          <p className="expSectionTitle myThemeColorText" style={{ marginBottom: "0px" }}>
+            <i className={`circle myMainIcon`}></i> Software Engineer II, X0PA AI (Apr 2022 - Jan 2023)
           </p>
           <p style={{ marginTop: "0px" }}>
 
@@ -84,19 +106,16 @@ function Xperience() {
           </p>
           <p style={{ marginTop: "0px" }}>
             <li>
-              Created API(s)
+              Developed api(s), crud(s), chatbots, android apps and many more
             </li>
             <li>
-              Implemented Oauth 2.0
+              Implemented oauth 2.0 and MFA ensuring the security of the application
             </li>
             <li>
-              Applied MVC Design Pattern
+              Developed Virtual Mentors with Ms Botframework SDK and LUIS language model
             </li>
             <li>
-              Created Chatbots with Ms Botframework SDK
-            </li>
-            <li>
-              Worked on Nylas Email integration
+              Worked on Nylas Email integration and Vonage Sms integration
             </li>
             <li>
               Implemented FTS Search Algorithm
@@ -105,16 +124,13 @@ function Xperience() {
               Implemented Boolean Search Algorithm
             </li>
             <li>
-              Created Web Apps and PWA(s)
+              Applied MVC Design Pattern and SOLID principles ensuring clean code
             </li>
             <li>
-              Cross platform React Native Apps (with expo)
+              Developed Cross Platform React Native Apps
             </li>
             <li>
-              Automate manual tasks
-            </li>
-            <li>
-              Applied Clean Code etc
+              Automated manual tasks and many more
             </li>
           </p>
         </div>

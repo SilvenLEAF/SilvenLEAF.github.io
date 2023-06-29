@@ -14,12 +14,17 @@ function About() {
         </p>
 
         <p className="myAboutParagraph" >
-          I am also insanely in love with Chinese and Japanese. I'm a big fan of tech and ULTRA BIG FAN of Chinese Sweet FLUFFY ROMANCE DRAMAS. I'm an introvert. I love listening to JPOP. Favorite singer Kenshi Younezu. Favorite color is Red. Favorite hobby Programming.
+          I am also insanely in love with Chinese and Japanese. I'm a big fan of serverside programming and an ULTRA BIG FAN of Chinese Sweet FLUFFY ROMANCE DRAMAS. I'm an introvert. I love listening to JPOP and CPOP. Favorite singer Kenshi Younezu. Favorite color is Red. Favorite hobby is learning Chinese!
         </p>
 
         <div className="myAboutQA">
           <div className="myAboutTitle">Real Name</div>
           <div className="myAboutAnswer">Manash Sarma</div>
+        </div>
+        
+        <div className="myAboutQA">
+          <div className="myAboutTitle">Son of</div>
+          <div className="myAboutAnswer">Mihir Kanti Sarma (Moti Sarma) and Asha Rani Sarma</div>
         </div>
 
 
@@ -51,7 +56,7 @@ function About() {
 
         <div className="myAboutQA">
           <div className="myAboutTitle">Gender</div>
-          <div className="myAboutAnswer">Male</div>
+          <div className="myAboutAnswer">I'm a boy</div>
         </div>
 
 
@@ -67,7 +72,7 @@ function About() {
 
         <div className="myAboutQA">
           <div className="myAboutTitle">Hobbies</div>
-          <div className="myAboutAnswer">Programming, Learning Chinese/Japanese, Creating, Problem Solving</div>
+          <div className="myAboutAnswer">Programming, Learning Chinese/Japanese, Problem Solving</div>
         </div>
 
 
