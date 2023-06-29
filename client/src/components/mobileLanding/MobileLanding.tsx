@@ -15,7 +15,8 @@ function MobileLanding() {
 
         <h5>I turn your</h5>
         <h1>DREAMS into REALITY</h1>
-        <h3>Backend Engineer</h3>
+        <h3>Senior Software Engineer</h3>
+        <h6>Backend Engineer (NodeJS)</h6>
       </div>
 
 

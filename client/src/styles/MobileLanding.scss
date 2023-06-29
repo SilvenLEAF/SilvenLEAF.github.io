@@ -60,13 +60,18 @@
     font-family: 'Ranchers', Dosis, sans-serif;
     color: $themeColor;
     text-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
-
+    
     text-align: center;
   }
   h3{
     margin: 0;
     font-size: 170%;
     text-align: center;
+  }
+  h6{
+    margin: 0;
+    text-align: center;
+    color: $themeColor;
   }
 
 }
