@@ -25,6 +25,9 @@ function Xperience() {
               Developed SFTP based two-way data flow integration in a cron based environment
             </li>
             <li>
+              Implemented secure and trusted Data Sharing across multiple platform and servers using encryptions like PGP, RSA and AES encryption algorithms
+            </li>
+            <li>
               Responsible for development and maintenance across multiple projects and codebases
             </li>
             <li>

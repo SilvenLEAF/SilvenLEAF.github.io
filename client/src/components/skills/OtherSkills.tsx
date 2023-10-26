@@ -7,35 +7,35 @@ function OtherSkills() {
         <img src="/images/others.svg" alt="" />
       </div>
 
-      <h4 className="mySkillSectionTitle">Others</h4>
+      <h5 className="mySkillSectionTitle">Others</h5>
       <ul className="mySkillSectionSkills">
         <li>
           <img src="/images/skills/azure.svg" alt="Azure" />
-          Azure
+          Azure Cloud
         </li>
         <li>
-          <img src="/images/skills/botframeworksdk.png" alt="" />
+          <img src="/images/skills/botframeworksdk.png" alt="Botframework SDK" />
           Botframework SDK
         </li>
         <li>
-          <img src="/images/skills/hapi.png" alt="git" />
-          HapiJS
+          <img src="/images/skills/secure.jpeg" alt="Data Securing" />
+          Data Securing with PGP, GPG, RSA, AES Encryption
         </li>
         <li>
-          <img src="/images/skills/chrome.svg" alt="Chrome Dev Tools" />
-          Web Scraping
+          <img src="/images/skills/passport.png" alt="passport" />
+          PassportJs framework
+        </li>
+        <li>
+          <img src="/images/skills/sftp.png" alt="SFTP" />
+          SFTP based Data Sync
         </li>
         <li>
           <img src="/images/skills/git.svg" alt="git" />
-          Git
+          Git and Version Control
         </li>
         <li>
-          <img src="/images/skills/powershell.svg" alt="CLI" />
-          Bash Scripting
-        </li>
-        <li>
-          <img src="/images/skills/npm.svg" alt="npm" />
-          npm
+          <img src="/images/skills/terminal.svg" alt="Bash Scripting" />
+          Bash Scripting and Automation
         </li>
         {/* <li>
           <img src="/images/skills/mongodb.svg" alt="" />
@@ -49,10 +49,10 @@ function OtherSkills() {
           <img src="/images/skills/gatsby.svg" alt="GatsbyJS"/>
           GatsbyJS
         </li> */}
-        <li>
+        {/* <li>
           <img src="/images/skills/vscode.svg" alt="VS Code" />
           VS Code
-        </li>
+        </li> */}
 
 
 

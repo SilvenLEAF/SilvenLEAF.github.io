@@ -21,7 +21,7 @@ function About() {
           <div className="myAboutTitle">Real Name</div>
           <div className="myAboutAnswer">Manash Sarma</div>
         </div>
-        
+
         <div className="myAboutQA">
           <div className="myAboutTitle">Son of</div>
           <div className="myAboutAnswer">Mihir Kanti Sarma (Moti Sarma) and Asha Rani Sarma</div>
@@ -72,7 +72,7 @@ function About() {
 
         <div className="myAboutQA">
           <div className="myAboutTitle">Hobbies</div>
-          <div className="myAboutAnswer">Programming, Learning Chinese/Japanese, Problem Solving</div>
+          <div className="myAboutAnswer">Learning Chinese and Japanese, Watching Wuxia or Fluffy CDramas, Listening to JPOP,   Problem Solving</div>
         </div>
 
 
@@ -83,6 +83,13 @@ function About() {
             <a href="https://dev.to/silvenleaf" target="_blank" rel="noopener noreferrer">
               Dev.to/SilvenLEAF
             </a>
+          </div>
+        </div>
+
+        <div className="myAboutQA">
+          <div className="myAboutTitle">Dream</div>
+          <div className="myAboutAnswer">
+            
           </div>
         </div>
 

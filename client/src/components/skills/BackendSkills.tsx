@@ -7,39 +7,39 @@ function BackendSkills() {
         <img src="/images/backend.png" alt="" />
       </div>
 
-      <h4 className="mySkillSectionTitle">BackEND</h4>
+      <h5 className="mySkillSectionTitle">BackEND (Main Skill)</h5>
       <ul className="mySkillSectionSkills">
         <li>
-          <img src="/images/skills/nodejs.svg" alt="" />
-          NodeJS
+          <img src="/images/skills/nodejs.svg" alt="NodeJs" />
+          NodeJs
         </li>
         <li>
-          <img src="/images/skills/typescript.svg" alt="" />
+          <img src="/images/skills/typescript.svg" alt="TypeScript" />
           TypeScript
         </li>
         <li>
-          <img src="/images/skills/express.svg" alt="" />
-          ExpressJS
+          <img src="/images/skills/express.svg" alt="ExpressJs" />
+          ExpressJs
         </li>
         <li>
-          <img src="/images/skills/mongodb.svg" alt="" />
+          <img src="/images/skills/mongodb.svg" alt="MongoDB" />
           MongoDB
         </li>
         <li>
-          <img src="/images/skills/postgresql.svg" alt="" />
+          <img src="/images/skills/postgresql.svg" alt="PostgreSQL" />
           PostgreSQL
         </li>
         <li>
-          <img src="/images/skills/passport.png" alt="" />
-          PassportJS
+          <img src="/images/skills/hapi.png" alt="HapiJs" />
+          HapiJs framework
         </li>
         <li>
-          <img src="/images/skills/oauth.svg" alt="" />
-          OAUTH 2.0
+          <img src="/images/skills/oauth.svg" alt="Loopback" />
+          Loopback framework
         </li>
         <li>
-          <img src="/images/skills/restapi.jpg" alt="" />
-          REST Api
+          <img src="/images/skills/api.avif" alt="REST API" />
+          REST API
         </li>
         {/* <li>
           <img src="/images/skills/graphql.svg" alt=""/>

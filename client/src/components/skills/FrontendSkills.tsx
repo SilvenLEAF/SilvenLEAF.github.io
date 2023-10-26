@@ -7,7 +7,7 @@ function FrontendSkills() {
         <img src="/images/frontend.svg" alt="" />
       </div>
 
-      <h4 className="mySkillSectionTitle">FrontEND</h4>
+      <h5 className="mySkillSectionTitle">FrontEND</h5>
       <ul className="mySkillSectionSkills">
 
         <li>
