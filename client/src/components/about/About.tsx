@@ -89,7 +89,7 @@ function About() {
         <div className="myAboutQA">
           <div className="myAboutTitle">Dream</div>
           <div className="myAboutAnswer">
-            
+            化身为 绝对的《精霊龍神》《灵龙神》
           </div>
         </div>
 
