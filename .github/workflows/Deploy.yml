@@ -23,12 +23,16 @@ jobs:
       #  Runs a single command using the runners shell
       - name: Install packages
         run: cd client && npm install
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
       
       # Runs a set of commands using the runners shell
       - name: Build
         run: |
           echo started Building
           cd client && CI=false && npm run build
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
       
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
