@@ -13,9 +13,9 @@ function MobileLanding() {
       <div id="myMobileLandingTitleHolder" onClick={() => setIsFace(!isFace)}>
         <div id="myMobileLandingIcon" style={{ background: isFace ? "url('/logos/SilvenLEAF Face.jpg') center/cover" : "url('/logos/SilvenLEAF.jpg') center/cover" }} ></div>
 
-        <h5>I turn your</h5>
+        <h5>Developing</h5>
         <h1>DREAMS into REALITY</h1>
-        <h3>Senior Software Engineer</h3>
+        <h3>Staff Software Engineer @X0PA AI</h3>
         <h6>Backend Engineer (NodeJS)</h6>
       </div>
 

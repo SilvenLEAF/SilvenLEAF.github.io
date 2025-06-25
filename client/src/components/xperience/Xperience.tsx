@@ -17,7 +17,23 @@ function Xperience() {
 
         <div className="companyXp">
           <p className="expSectionTitle myThemeColorText" style={{ marginBottom: "0px" }}>
-            <i className={`circle myMainIcon`}></i> Senior Software Engineer, X0PA AI (Jan 2023 - present)
+            <i className={`circle myMainIcon`}></i> Staff Software Engineer, X0PA AI (Apr 2025 - present)
+          </p>
+          <p style={{ marginTop: "0px" }}>
+
+            <li>
+              Developed End-to-End Android/IOS Mobile App for Room AI
+            </li>
+            <li>
+              Implemented reactive Task Engine to automate and simplify user experience
+            </li>
+            <li>
+              To Be Continued...
+            </li>
+          </p>
+
+          <p className="expSectionTitle myThemeColorText" style={{ marginBottom: "0px" }}>
+            <i className={`circle myMainIcon`}></i> Senior Software Engineer, X0PA AI (Jan 2023 - Apr 2025)
           </p>
           <p style={{ marginTop: "0px" }}>
 
